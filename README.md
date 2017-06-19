@@ -24,9 +24,13 @@
 
 系统需要安装Go和MySQL。
 
+按装 go 
+ 	sudo apt-get install gccgo-go
+
 获取源码
 
 	$ go get github.com/lisijie/webcron
+	
 	
 打开配置文件 conf/app.conf，修改相关配置。
 	
